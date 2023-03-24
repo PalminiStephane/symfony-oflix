@@ -1,0 +1,26 @@
+{# ceci est un commentaire twig #}
+{# 
+quand on met la commande extends, on hérite d'un layout
+le fait d'hériter d'un layout nous donne la possibilité d'utiliser les block de ce layout
+#}
+{% extends 'layout.html.twig' %}
+
+{# ici je donne du html à un block, qui sera donc afficher par le layout #}
+{% block body %}
+    {# ici on met le contenu qui sera inclus dans le block #}
+    <h1>Welcome !</h1>
+    {# 
+    pour écrire un utilise les doubles accolades 
+    les variables ne commence par par un $
+    #}
+    {{ movieId }}
+
+    {# https://twig.symfony.com/doc/3.x/tags/for.html #}
+    <ul>
+        {% for item in collection %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{# si on hérite d'un layout, on a plus le droit de mettre du HTML/code en dehors des blocks #}

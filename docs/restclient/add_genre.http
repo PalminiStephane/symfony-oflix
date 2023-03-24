@@ -1,0 +1,8 @@
+// POST http://localhost:8000/api/genres/ => 404
+// POST http://localhost:8000/api/genres  => OK
+POST http://localhost:8000/api/genres
+content-type: application/json
+
+{
+    "name": "updated"
+}

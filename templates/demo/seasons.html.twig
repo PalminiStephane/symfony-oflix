@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <ul>
+    {% for season in seasons %}
+        <li>{{ season.name}}</li>
+        <li>{{ season.nbEpisode}}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

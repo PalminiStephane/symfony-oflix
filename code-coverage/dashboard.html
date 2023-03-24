@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/Nazca/Symfo/symfo-oflix-JB-oclock/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/var/www/html/Nazca/Symfo/symfo-oflix-JB-oclock/src</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Command/DatabaseSlugCommand.php.html#15">App\Command\DatabaseSlugCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataFixtures/UserFixture.php.html#11">App\DataFixtures\UserFixture</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/PersonRepository.php.html#17">App\Repository\PersonRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/UserType.php.html#17">App\Form\UserType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/UserCreateType.php.html#14">App\Form\UserCreateType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SeasonType.php.html#12">App\Form\SeasonType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MovieType.php.html#14">App\Form\MovieType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/GenreType.php.html#10">App\Form\GenreType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#21">App\Controller\Api\GenreController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/FavorisManager.php.html#7">App\Services\FavorisManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataFixtures/AppFixtures.php.html#18">App\DataFixtures\AppFixtures</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#10">App\Controller\SecurityController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/MovieController.php.html#15">App\Controller\Api\MovieController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DemoController.php.html#11">App\Controller\DemoController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/FavorisController.php.html#13">App\Controller\FavorisController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#27">App\Controller\Backoffice\MovieController</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#19">App\Controller\Backoffice\UserController</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#15">App\Entity\Genre</a></td><td class="text-right">8%</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#20">App\Repository\UserRepository</a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#18">App\Controller\Backoffice\SeasonController</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#13">App\Entity\Person</a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="Repository/CastingRepository.php.html#17">App\Repository\CastingRepository</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Repository/GenreRepository.php.html#17">App\Repository\GenreRepository</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Repository/SeasonRepository.php.html#17">App\Repository\SeasonRepository</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Security/OflixAuthenticator.php.html#18">App\Security\OflixAuthenticator</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#11">App\Entity\Casting</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Serializer/DoctrineDenormalizer.php.html#8">App\Serializer\DoctrineDenormalizer</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="Security/Voter/Movie1400Voter.php.html#11">App\Security\Voter\Movie1400Voter</a></td><td class="text-right">18%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#17">App\Entity\Movie</a></td><td class="text-right">21%</td></tr>
+       <tr><td><a href="Security/Voter/Movie301Voter.php.html#9">App\Security\Voter\Movie301Voter</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Entity/Season.php.html#11">App\Entity\Season</a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="Entity/User.php.html#13">App\Entity\User</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Repository/MovieRepository.php.html#17">App\Repository\MovieRepository</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Repository/ReviewRepository.php.html#17">App\Repository\ReviewRepository</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="EventSubscriber/RandomMovieSubscriber.php.html#10">App\EventSubscriber\RandomMovieSubscriber</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="EventSubscriber/MaintenanceSubscriber.php.html#8">App\EventSubscriber\MaintenanceSubscriber</a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Entity/Movie.php.html#17">App\Entity\Movie</a></td><td class="text-right">990</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#21">App\Controller\Api\GenreController</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#27">App\Controller\Backoffice\MovieController</a></td><td class="text-right">171</td></tr>
+       <tr><td><a href="DataFixtures/AppFixtures.php.html#18">App\DataFixtures\AppFixtures</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#19">App\Controller\Backoffice\UserController</a></td><td class="text-right">124</td></tr>
+       <tr><td><a href="Entity/Person.php.html#13">App\Entity\Person</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#18">App\Controller\Backoffice\SeasonController</a></td><td class="text-right">82</td></tr>
+       <tr><td><a href="Services/FavorisManager.php.html#7">App\Services\FavorisManager</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#15">App\Entity\Genre</a></td><td class="text-right">57</td></tr>
+       <tr><td><a href="Command/DatabaseSlugCommand.php.html#15">App\Command\DatabaseSlugCommand</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#20">App\Repository\UserRepository</a></td><td class="text-right">43</td></tr>
+       <tr><td><a href="Repository/PersonRepository.php.html#17">App\Repository\PersonRepository</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Security/Voter/Movie301Voter.php.html#9">App\Security\Voter\Movie301Voter</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Repository/CastingRepository.php.html#17">App\Repository\CastingRepository</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Repository/GenreRepository.php.html#17">App\Repository\GenreRepository</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Repository/SeasonRepository.php.html#17">App\Repository\SeasonRepository</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Security/OflixAuthenticator.php.html#18">App\Security\OflixAuthenticator</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/Api/MovieController.php.html#15">App\Controller\Api\MovieController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Security/Voter/Movie1400Voter.php.html#11">App\Security\Voter\Movie1400Voter</a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="Serializer/DoctrineDenormalizer.php.html#8">App\Serializer\DoctrineDenormalizer</a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Form/UserType.php.html#17">App\Form\UserType</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Repository/MovieRepository.php.html#17">App\Repository\MovieRepository</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Repository/ReviewRepository.php.html#17">App\Repository\ReviewRepository</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EventSubscriber/RandomMovieSubscriber.php.html#10">App\EventSubscriber\RandomMovieSubscriber</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="EventSubscriber/MaintenanceSubscriber.php.html#8">App\EventSubscriber\MaintenanceSubscriber</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Command/DatabaseSlugCommand.php.html#40"><abbr title="App\Command\DatabaseSlugCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Season.php.html#46"><abbr title="App\Entity\Season::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/GenreType.php.html#20"><abbr title="App\Form\GenreType::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/GenreType.php.html#12"><abbr title="App\Form\GenreType::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/RandomMovieSubscriber.php.html#87"><abbr title="App\EventSubscriber\RandomMovieSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/MaintenanceSubscriber.php.html#43"><abbr title="App\EventSubscriber\MaintenanceSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/User.php.html#123"><abbr title="App\Entity\User::eraseCredentials">eraseCredentials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/User.php.html#102"><abbr title="App\Entity\User::setPassword">setPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/User.php.html#87"><abbr title="App\Entity\User::setRoles">setRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/User.php.html#69"><abbr title="App\Entity\User::getUsername">getUsername</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/User.php.html#49"><abbr title="App\Entity\User::setEmail">setEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Season.php.html#70"><abbr title="App\Entity\Season::setMovie">setMovie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Season.php.html#65"><abbr title="App\Entity\Season::getMovie">getMovie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Season.php.html#58"><abbr title="App\Entity\Season::setNbEpisode">setNbEpisode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Review.php.html#171"><abbr title="App\Entity\Review::getMovie">getMovie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MovieType.php.html#45"><abbr title="App\Form\MovieType::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Review.php.html#94"><abbr title="App\Entity\Review::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#89"><abbr title="App\Entity\Person::removeCasting">removeCasting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#79"><abbr title="App\Entity\Person::addCasting">addCasting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#74"><abbr title="App\Entity\Person::getCastings">getCastings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#64"><abbr title="App\Entity\Person::setLastname">setLastname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#52"><abbr title="App\Entity\Person::setFirstname">setFirstname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#42"><abbr title="App\Entity\Person::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Person.php.html#37"><abbr title="App\Entity\Person::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#354"><abbr title="App\Entity\Movie::setSlug">setSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#344"><abbr title="App\Entity\Movie::concat">concat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#332"><abbr title="App\Entity\Movie::removeCasting">removeCasting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#322"><abbr title="App\Entity\Movie::addCasting">addCasting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#317"><abbr title="App\Entity\Movie::getCastings">getCastings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MovieType.php.html#16"><abbr title="App\Form\MovieType::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SeasonType.php.html#14"><abbr title="App\Form\SeasonType::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseSlugCommand.php.html#54"><abbr title="App\Command\DatabaseSlugCommand::configure">configure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/SeasonRepository.php.html#24"><abbr title="App\Repository\SeasonRepository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/FavorisManager.php.html#54"><abbr title="App\Services\FavorisManager::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/FavorisManager.php.html#20"><abbr title="App\Services\FavorisManager::addOrRemove">addOrRemove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/FavorisManager.php.html#15"><abbr title="App\Services\FavorisManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Serializer/DoctrineDenormalizer.php.html#56"><abbr title="App\Serializer\DoctrineDenormalizer::denormalize">denormalize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Serializer/DoctrineDenormalizer.php.html#32"><abbr title="App\Serializer\DoctrineDenormalizer::supportsDenormalization">supportsDenormalization</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/Voter/Movie301Voter.php.html#20"><abbr title="App\Security\Voter\Movie301Voter::voteOnAttribute">voteOnAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/Voter/Movie1400Voter.php.html#45"><abbr title="App\Security\Voter\Movie1400Voter::voteOnAttribute">voteOnAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/OflixAuthenticator.php.html#46"><abbr title="App\Security\OflixAuthenticator::onAuthenticationSuccess">onAuthenticationSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/OflixAuthenticator.php.html#31"><abbr title="App\Security\OflixAuthenticator::authenticate">authenticate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#48"><abbr title="App\Repository\UserRepository::upgradePassword">upgradePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#36"><abbr title="App\Repository\UserRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#27"><abbr title="App\Repository\UserRepository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/SeasonRepository.php.html#33"><abbr title="App\Repository\SeasonRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/ReviewRepository.php.html#33"><abbr title="App\Repository\ReviewRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SeasonType.php.html#28"><abbr title="App\Form\SeasonType::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/PersonRepository.php.html#33"><abbr title="App\Repository\PersonRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/PersonRepository.php.html#24"><abbr title="App\Repository\PersonRepository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/PersonRepository.php.html#19"><abbr title="App\Repository\PersonRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/MovieRepository.php.html#33"><abbr title="App\Repository\MovieRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/MovieRepository.php.html#24"><abbr title="App\Repository\MovieRepository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/GenreRepository.php.html#33"><abbr title="App\Repository\GenreRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/GenreRepository.php.html#24"><abbr title="App\Repository\GenreRepository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CastingRepository.php.html#33"><abbr title="App\Repository\CastingRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CastingRepository.php.html#24"><abbr title="App\Repository\CastingRepository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/UserType.php.html#83"><abbr title="App\Form\UserType::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/UserType.php.html#19"><abbr title="App\Form\UserType::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/UserCreateType.php.html#59"><abbr title="App\Form\UserCreateType::configureOptions">configureOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/UserCreateType.php.html#16"><abbr title="App\Form\UserCreateType::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#305"><abbr title="App\Entity\Movie::removeGenre">removeGenre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#294"><abbr title="App\Entity\Movie::addGenre">addGenre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#274"><abbr title="App\Entity\Movie::removeSeason">removeSeason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#67"><abbr title="App\Controller\Backoffice\SeasonController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#15"><abbr title="App\Controller\SecurityController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/HomeController.php.html#164"><abbr title="App\Controller\HomeController::search">search</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/FavorisController.php.html#40"><abbr title="App\Controller\FavorisController::browse">browse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/FavorisController.php.html#18"><abbr title="App\Controller\FavorisController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DemoController.php.html#42"><abbr title="App\Controller\DemoController::seasonWithBadPropertyName">seasonWithBadPropertyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DemoController.php.html#30"><abbr title="App\Controller\DemoController::nainPorteQuoi">nainPorteQuoi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DemoController.php.html#17"><abbr title="App\Controller\DemoController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#108"><abbr title="App\Controller\Backoffice\UserController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#78"><abbr title="App\Controller\Backoffice\UserController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#68"><abbr title="App\Controller\Backoffice\UserController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#34"><abbr title="App\Controller\Backoffice\UserController::new">new</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#87"><abbr title="App\Controller\Backoffice\SeasonController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#57"><abbr title="App\Controller\Backoffice\SeasonController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataFixtures/AppFixtures.php.html#27"><abbr title="App\DataFixtures\AppFixtures::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#36"><abbr title="App\Controller\Backoffice\SeasonController::new">new</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#153"><abbr title="App\Controller\Backoffice\MovieController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#98"><abbr title="App\Controller\Backoffice\MovieController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#88"><abbr title="App\Controller\Backoffice\MovieController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#45"><abbr title="App\Controller\Backoffice\MovieController::new">new</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/MovieController.php.html#20"><abbr title="App\Controller\Api\MovieController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#312"><abbr title="App\Controller\Api\GenreController::moviesByGenre">moviesByGenre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#287"><abbr title="App\Controller\Api\GenreController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#249"><abbr title="App\Controller\Api\GenreController::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#173"><abbr title="App\Controller\Api\GenreController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#83"><abbr title="App\Controller\Api\GenreController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#35"><abbr title="App\Controller\Api\GenreController::browse">browse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseSlugCommand.php.html#78"><abbr title="App\Command\DatabaseSlugCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SecurityController.php.html#32"><abbr title="App\Controller\SecurityController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataFixtures/AppFixtures.php.html#33"><abbr title="App\DataFixtures\AppFixtures::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#264"><abbr title="App\Entity\Movie::addSeason">addSeason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataFixtures/UserFixture.php.html#16"><abbr title="App\DataFixtures\UserFixture::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#249"><abbr title="App\Entity\Movie::setUpdatedAt">setUpdatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#237"><abbr title="App\Entity\Movie::setCreatedAt">setCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#225"><abbr title="App\Entity\Movie::setReleaseDate">setReleaseDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#213"><abbr title="App\Entity\Movie::setSummary">setSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#201"><abbr title="App\Entity\Movie::setType">setType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#189"><abbr title="App\Entity\Movie::setDuration">setDuration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#177"><abbr title="App\Entity\Movie::setRating">setRating</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#165"><abbr title="App\Entity\Movie::setPoster">setPoster</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#153"><abbr title="App\Entity\Movie::setSynopsis">setSynopsis</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#141"><abbr title="App\Entity\Movie::setTitle">setTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#125"><abbr title="App\Entity\Movie::onPreUpdate">onPreUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#117"><abbr title="App\Entity\Movie::setCreatedAtDefaultValue">setCreatedAtDefaultValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#104"><abbr title="App\Entity\Movie::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#90"><abbr title="App\Entity\Genre::removeMovie">removeMovie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#80"><abbr title="App\Entity\Genre::addMovie">addMovie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#75"><abbr title="App\Entity\Genre::getMovies">getMovies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#65"><abbr title="App\Entity\Genre::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#55"><abbr title="App\Entity\Genre::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#50"><abbr title="App\Entity\Genre::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#88"><abbr title="App\Entity\Casting::setMovie">setMovie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#83"><abbr title="App\Entity\Casting::getMovie">getMovie</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#76"><abbr title="App\Entity\Casting::setPerson">setPerson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#64"><abbr title="App\Entity\Casting::setCreditOrder">setCreditOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#59"><abbr title="App\Entity\Casting::getCreditOrder">getCreditOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#52"><abbr title="App\Entity\Casting::setRole">setRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Casting.php.html#42"><abbr title="App\Entity\Casting::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataFixtures/UserFixture.php.html#59"><abbr title="App\DataFixtures\UserFixture::getGroups">getGroups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataFixtures/UserFixture.php.html#23"><abbr title="App\DataFixtures\UserFixture::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/FavorisManager.php.html#63"><abbr title="App\Services\FavorisManager::getMovies">getMovies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/Voter/Movie1400Voter.php.html#21"><abbr title="App\Security\Voter\Movie1400Voter::supports">supports</abbr></a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DataFixtures/AppFixtures.php.html#33"><abbr title="App\DataFixtures\AppFixtures::load">load</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#98"><abbr title="App\Controller\Backoffice\MovieController::edit">edit</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Command/DatabaseSlugCommand.php.html#78"><abbr title="App\Command\DatabaseSlugCommand::execute">execute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Services/FavorisManager.php.html#20"><abbr title="App\Services\FavorisManager::addOrRemove">addOrRemove</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#45"><abbr title="App\Controller\Backoffice\MovieController::new">new</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Security/Voter/Movie301Voter.php.html#20"><abbr title="App\Security\Voter\Movie301Voter::voteOnAttribute">voteOnAttribute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#34"><abbr title="App\Controller\Backoffice\UserController::new">new</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#78"><abbr title="App\Controller\Backoffice\UserController::edit">edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#173"><abbr title="App\Controller\Api\GenreController::edit">edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/Api/MovieController.php.html#20"><abbr title="App\Controller\Api\MovieController::add">add</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#332"><abbr title="App\Entity\Movie::removeCasting">removeCasting</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#36"><abbr title="App\Controller\Backoffice\SeasonController::new">new</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#67"><abbr title="App\Controller\Backoffice\SeasonController::edit">edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Security/Voter/Movie1400Voter.php.html#45"><abbr title="App\Security\Voter\Movie1400Voter::voteOnAttribute">voteOnAttribute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Entity/Person.php.html#89"><abbr title="App\Entity\Person::removeCasting">removeCasting</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#274"><abbr title="App\Entity\Movie::removeSeason">removeSeason</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#83"><abbr title="App\Controller\Api\GenreController::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#287"><abbr title="App\Controller\Api\GenreController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/PersonRepository.php.html#33"><abbr title="App\Repository\PersonRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/ReviewRepository.php.html#33"><abbr title="App\Repository\ReviewRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#48"><abbr title="App\Repository\UserRepository::upgradePassword">upgradePassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/SeasonRepository.php.html#24"><abbr title="App\Repository\SeasonRepository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/SeasonRepository.php.html#33"><abbr title="App\Repository\SeasonRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#27"><abbr title="App\Repository\UserRepository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/UserRepository.php.html#36"><abbr title="App\Repository\UserRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/MovieRepository.php.html#33"><abbr title="App\Repository\MovieRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Security/OflixAuthenticator.php.html#46"><abbr title="App\Security\OflixAuthenticator::onAuthenticationSuccess">onAuthenticationSuccess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Serializer/DoctrineDenormalizer.php.html#32"><abbr title="App\Serializer\DoctrineDenormalizer::supportsDenormalization">supportsDenormalization</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/PersonRepository.php.html#24"><abbr title="App\Repository\PersonRepository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/UserType.php.html#19"><abbr title="App\Form\UserType::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/MovieRepository.php.html#24"><abbr title="App\Repository\MovieRepository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/GenreRepository.php.html#33"><abbr title="App\Repository\GenreRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/GenreRepository.php.html#24"><abbr title="App\Repository\GenreRepository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/CastingRepository.php.html#33"><abbr title="App\Repository\CastingRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/CastingRepository.php.html#24"><abbr title="App\Repository\CastingRepository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#322"><abbr title="App\Entity\Movie::addCasting">addCasting</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#305"><abbr title="App\Entity\Movie::removeGenre">removeGenre</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#294"><abbr title="App\Entity\Movie::addGenre">addGenre</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Movie.php.html#264"><abbr title="App\Entity\Movie::addSeason">addSeason</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Genre.php.html#80"><abbr title="App\Entity\Genre::addMovie">addMovie</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/Backoffice/UserController.php.html#108"><abbr title="App\Controller\Backoffice\UserController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/Backoffice/SeasonController.php.html#87"><abbr title="App\Controller\Backoffice\SeasonController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/Backoffice/MovieController.php.html#153"><abbr title="App\Controller\Backoffice\MovieController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/Api/GenreController.php.html#249"><abbr title="App\Controller\Api\GenreController::read">read</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Person.php.html#79"><abbr title="App\Entity\Person::addCasting">addCasting</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Security/Voter/Movie1400Voter.php.html#21"><abbr title="App\Security\Voter\Movie1400Voter::supports">supports</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.26</a> using <a href="https://secure.php.net/" target="_top">PHP 7.4.33</a> and <a href="https://phpunit.de/">PHPUnit 9.6.5</a> at Wed Mar 15 9:51:23 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=9.2.26" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=9.2.26" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=9.2.26" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,4,9,2,1,1,2,1,1,0,2,6], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([125,0,0,0,0,0,0,1,0,0,1,71], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"Command\/DatabaseSlugCommand.php.html#15\">App\\Command\\DatabaseSlugCommand<\/a>"],[0,13,"<a href=\"Controller\/Api\/GenreController.php.html#21\">App\\Controller\\Api\\GenreController<\/a>"],[0,4,"<a href=\"Controller\/Api\/MovieController.php.html#15\">App\\Controller\\Api\\MovieController<\/a>"],[100,1,"<a href=\"Controller\/Backoffice\/AdminController.php.html#9\">App\\Controller\\Backoffice\\AdminController<\/a>"],[6.976744186046512,14,"<a href=\"Controller\/Backoffice\/MovieController.php.html#27\">App\\Controller\\Backoffice\\MovieController<\/a>"],[10,10,"<a href=\"Controller\/Backoffice\/SeasonController.php.html#18\">App\\Controller\\Backoffice\\SeasonController<\/a>"],[7.894736842105263,12,"<a href=\"Controller\/Backoffice\/UserController.php.html#19\">App\\Controller\\Backoffice\\UserController<\/a>"],[0,3,"<a href=\"Controller\/DemoController.php.html#11\">App\\Controller\\DemoController<\/a>"],[0,2,"<a href=\"Controller\/FavorisController.php.html#13\">App\\Controller\\FavorisController<\/a>"],[90.9090909090909,5,"<a href=\"Controller\/HomeController.php.html#14\">App\\Controller\\HomeController<\/a>"],[100,4,"<a href=\"Controller\/ReviewController.php.html#15\">App\\Controller\\ReviewController<\/a>"],[0,2,"<a href=\"Controller\/SecurityController.php.html#10\">App\\Controller\\SecurityController<\/a>"],[0,12,"<a href=\"DataFixtures\/AppFixtures.php.html#18\">App\\DataFixtures\\AppFixtures<\/a>"],[0,3,"<a href=\"DataFixtures\/UserFixture.php.html#11\">App\\DataFixtures\\UserFixture<\/a>"],[15.384615384615385,9,"<a href=\"Entity\/Casting.php.html#11\">App\\Entity\\Casting<\/a>"],[8.333333333333332,8,"<a href=\"Entity\/Genre.php.html#15\">App\\Entity\\Genre<\/a>"],[21.21212121212121,44,"<a href=\"Entity\/Movie.php.html#17\">App\\Entity\\Movie<\/a>"],[11.76470588235294,12,"<a href=\"Entity\/Person.php.html#13\">App\\Entity\\Person<\/a>"],[91.30434782608695,16,"<a href=\"Entity\/Review.php.html#15\">App\\Entity\\Review<\/a>"],[30,7,"<a href=\"Entity\/Season.php.html#11\">App\\Entity\\Season<\/a>"],[46.666666666666664,11,"<a href=\"Entity\/User.php.html#13\">App\\Entity\\User<\/a>"],[75,4,"<a href=\"EventSubscriber\/MaintenanceSubscriber.php.html#8\">App\\EventSubscriber\\MaintenanceSubscriber<\/a>"],[66.66666666666666,4,"<a href=\"EventSubscriber\/RandomMovieSubscriber.php.html#10\">App\\EventSubscriber\\RandomMovieSubscriber<\/a>"],[0,2,"<a href=\"Form\/GenreType.php.html#10\">App\\Form\\GenreType<\/a>"],[0,2,"<a href=\"Form\/MovieType.php.html#14\">App\\Form\\MovieType<\/a>"],[100,2,"<a href=\"Form\/ReviewType.php.html#15\">App\\Form\\ReviewType<\/a>"],[0,2,"<a href=\"Form\/SeasonType.php.html#12\">App\\Form\\SeasonType<\/a>"],[0,2,"<a href=\"Form\/UserCreateType.php.html#14\">App\\Form\\UserCreateType<\/a>"],[0,3,"<a href=\"Form\/UserType.php.html#17\">App\\Form\\UserType<\/a>"],[100,0,"<a href=\"Kernel.php.html#8\">App\\Kernel<\/a>"],[14.285714285714285,5,"<a href=\"Repository\/CastingRepository.php.html#17\">App\\Repository\\CastingRepository<\/a>"],[14.285714285714285,5,"<a href=\"Repository\/GenreRepository.php.html#17\">App\\Repository\\GenreRepository<\/a>"],[57.14285714285714,6,"<a href=\"Repository\/MovieRepository.php.html#17\">App\\Repository\\MovieRepository<\/a>"],[0,5,"<a href=\"Repository\/PersonRepository.php.html#17\">App\\Repository\\PersonRepository<\/a>"],[57.14285714285714,5,"<a href=\"Repository\/ReviewRepository.php.html#17\">App\\Repository\\ReviewRepository<\/a>"],[14.285714285714285,5,"<a href=\"Repository\/SeasonRepository.php.html#17\">App\\Repository\\SeasonRepository<\/a>"],[9.090909090909092,7,"<a href=\"Repository\/UserRepository.php.html#20\">App\\Repository\\UserRepository<\/a>"],[14.285714285714285,5,"<a href=\"Security\/OflixAuthenticator.php.html#18\">App\\Security\\OflixAuthenticator<\/a>"],[18.181818181818183,5,"<a href=\"Security\/Voter\/Movie1400Voter.php.html#11\">App\\Security\\Voter\\Movie1400Voter<\/a>"],[25,6,"<a href=\"Security\/Voter\/Movie301Voter.php.html#9\">App\\Security\\Voter\\Movie301Voter<\/a>"],[16.666666666666664,4,"<a href=\"Serializer\/DoctrineDenormalizer.php.html#8\">App\\Serializer\\DoctrineDenormalizer<\/a>"],[0,8,"<a href=\"Services\/FavorisManager.php.html#7\">App\\Services\\FavorisManager<\/a>"],[100,3,"<a href=\"Services\/MySlugger.php.html#7\">App\\Services\\MySlugger<\/a>"],[100,5,"<a href=\"Services\/OmdbApi.php.html#8\">App\\Services\\OmdbApi<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Command\/DatabaseSlugCommand.php.html#40\">App\\Command\\DatabaseSlugCommand::__construct<\/a>"],[0,1,"<a href=\"Command\/DatabaseSlugCommand.php.html#54\">App\\Command\\DatabaseSlugCommand::configure<\/a>"],[0,5,"<a href=\"Command\/DatabaseSlugCommand.php.html#78\">App\\Command\\DatabaseSlugCommand::execute<\/a>"],[0,1,"<a href=\"Controller\/Api\/GenreController.php.html#35\">App\\Controller\\Api\\GenreController::browse<\/a>"],[0,3,"<a href=\"Controller\/Api\/GenreController.php.html#83\">App\\Controller\\Api\\GenreController::add<\/a>"],[0,4,"<a href=\"Controller\/Api\/GenreController.php.html#173\">App\\Controller\\Api\\GenreController::edit<\/a>"],[0,2,"<a href=\"Controller\/Api\/GenreController.php.html#249\">App\\Controller\\Api\\GenreController::read<\/a>"],[0,2,"<a href=\"Controller\/Api\/GenreController.php.html#287\">App\\Controller\\Api\\GenreController::delete<\/a>"],[0,1,"<a href=\"Controller\/Api\/GenreController.php.html#312\">App\\Controller\\Api\\GenreController::moviesByGenre<\/a>"],[0,4,"<a href=\"Controller\/Api\/MovieController.php.html#20\">App\\Controller\\Api\\MovieController::add<\/a>"],[100,1,"<a href=\"Controller\/Backoffice\/AdminController.php.html#14\">App\\Controller\\Backoffice\\AdminController::index<\/a>"],[100,1,"<a href=\"Controller\/Backoffice\/MovieController.php.html#32\">App\\Controller\\Backoffice\\MovieController::index<\/a>"],[0,4,"<a href=\"Controller\/Backoffice\/MovieController.php.html#45\">App\\Controller\\Backoffice\\MovieController::new<\/a>"],[0,1,"<a href=\"Controller\/Backoffice\/MovieController.php.html#88\">App\\Controller\\Backoffice\\MovieController::show<\/a>"],[0,6,"<a href=\"Controller\/Backoffice\/MovieController.php.html#98\">App\\Controller\\Backoffice\\MovieController::edit<\/a>"],[0,2,"<a href=\"Controller\/Backoffice\/MovieController.php.html#153\">App\\Controller\\Backoffice\\MovieController::delete<\/a>"],[100,1,"<a href=\"Controller\/Backoffice\/SeasonController.php.html#24\">App\\Controller\\Backoffice\\SeasonController::index<\/a>"],[0,3,"<a href=\"Controller\/Backoffice\/SeasonController.php.html#36\">App\\Controller\\Backoffice\\SeasonController::new<\/a>"],[0,1,"<a href=\"Controller\/Backoffice\/SeasonController.php.html#57\">App\\Controller\\Backoffice\\SeasonController::show<\/a>"],[0,3,"<a href=\"Controller\/Backoffice\/SeasonController.php.html#67\">App\\Controller\\Backoffice\\SeasonController::edit<\/a>"],[0,2,"<a href=\"Controller\/Backoffice\/SeasonController.php.html#87\">App\\Controller\\Backoffice\\SeasonController::delete<\/a>"],[100,1,"<a href=\"Controller\/Backoffice\/UserController.php.html#24\">App\\Controller\\Backoffice\\UserController::index<\/a>"],[0,4,"<a href=\"Controller\/Backoffice\/UserController.php.html#34\">App\\Controller\\Backoffice\\UserController::new<\/a>"],[0,1,"<a href=\"Controller\/Backoffice\/UserController.php.html#68\">App\\Controller\\Backoffice\\UserController::show<\/a>"],[0,4,"<a href=\"Controller\/Backoffice\/UserController.php.html#78\">App\\Controller\\Backoffice\\UserController::edit<\/a>"],[0,2,"<a href=\"Controller\/Backoffice\/UserController.php.html#108\">App\\Controller\\Backoffice\\UserController::delete<\/a>"],[0,1,"<a href=\"Controller\/DemoController.php.html#17\">App\\Controller\\DemoController::index<\/a>"],[0,1,"<a href=\"Controller\/DemoController.php.html#30\">App\\Controller\\DemoController::nainPorteQuoi<\/a>"],[0,1,"<a href=\"Controller\/DemoController.php.html#42\">App\\Controller\\DemoController::seasonWithBadPropertyName<\/a>"],[0,1,"<a href=\"Controller\/FavorisController.php.html#18\">App\\Controller\\FavorisController::index<\/a>"],[0,1,"<a href=\"Controller\/FavorisController.php.html#40\">App\\Controller\\FavorisController::browse<\/a>"],[100,1,"<a href=\"Controller\/HomeController.php.html#28\">App\\Controller\\HomeController::index<\/a>"],[90,3,"<a href=\"Controller\/HomeController.php.html#92\">App\\Controller\\HomeController::show<\/a>"],[0,1,"<a href=\"Controller\/HomeController.php.html#164\">App\\Controller\\HomeController::search<\/a>"],[100,4,"<a href=\"Controller\/ReviewController.php.html#21\">App\\Controller\\ReviewController::index<\/a>"],[0,1,"<a href=\"Controller\/SecurityController.php.html#15\">App\\Controller\\SecurityController::login<\/a>"],[0,1,"<a href=\"Controller\/SecurityController.php.html#32\">App\\Controller\\SecurityController::logout<\/a>"],[0,1,"<a href=\"DataFixtures\/AppFixtures.php.html#27\">App\\DataFixtures\\AppFixtures::__construct<\/a>"],[0,11,"<a href=\"DataFixtures\/AppFixtures.php.html#33\">App\\DataFixtures\\AppFixtures::load<\/a>"],[0,1,"<a href=\"DataFixtures\/UserFixture.php.html#16\">App\\DataFixtures\\UserFixture::__construct<\/a>"],[0,1,"<a href=\"DataFixtures\/UserFixture.php.html#23\">App\\DataFixtures\\UserFixture::load<\/a>"],[0,1,"<a href=\"DataFixtures\/UserFixture.php.html#59\">App\\DataFixtures\\UserFixture::getGroups<\/a>"],[0,1,"<a href=\"Entity\/Casting.php.html#42\">App\\Entity\\Casting::getId<\/a>"],[100,1,"<a href=\"Entity\/Casting.php.html#47\">App\\Entity\\Casting::getRole<\/a>"],[0,1,"<a href=\"Entity\/Casting.php.html#52\">App\\Entity\\Casting::setRole<\/a>"],[0,1,"<a href=\"Entity\/Casting.php.html#59\">App\\Entity\\Casting::getCreditOrder<\/a>"],[0,1,"<a href=\"Entity\/Casting.php.html#64\">App\\Entity\\Casting::setCreditOrder<\/a>"],[100,1,"<a href=\"Entity\/Casting.php.html#71\">App\\Entity\\Casting::getPerson<\/a>"],[0,1,"<a href=\"Entity\/Casting.php.html#76\">App\\Entity\\Casting::setPerson<\/a>"],[0,1,"<a href=\"Entity\/Casting.php.html#83\">App\\Entity\\Casting::getMovie<\/a>"],[0,1,"<a href=\"Entity\/Casting.php.html#88\">App\\Entity\\Casting::setMovie<\/a>"],[0,1,"<a href=\"Entity\/Genre.php.html#50\">App\\Entity\\Genre::__construct<\/a>"],[0,1,"<a href=\"Entity\/Genre.php.html#55\">App\\Entity\\Genre::getId<\/a>"],[100,1,"<a href=\"Entity\/Genre.php.html#60\">App\\Entity\\Genre::getName<\/a>"],[0,1,"<a href=\"Entity\/Genre.php.html#65\">App\\Entity\\Genre::setName<\/a>"],[0,1,"<a href=\"Entity\/Genre.php.html#75\">App\\Entity\\Genre::getMovies<\/a>"],[0,2,"<a href=\"Entity\/Genre.php.html#80\">App\\Entity\\Genre::addMovie<\/a>"],[0,1,"<a href=\"Entity\/Genre.php.html#90\">App\\Entity\\Genre::removeMovie<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#104\">App\\Entity\\Movie::__construct<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#117\">App\\Entity\\Movie::setCreatedAtDefaultValue<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#125\">App\\Entity\\Movie::onPreUpdate<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#131\">App\\Entity\\Movie::getId<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#136\">App\\Entity\\Movie::getTitle<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#141\">App\\Entity\\Movie::setTitle<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#148\">App\\Entity\\Movie::getSynopsis<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#153\">App\\Entity\\Movie::setSynopsis<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#160\">App\\Entity\\Movie::getPoster<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#165\">App\\Entity\\Movie::setPoster<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#172\">App\\Entity\\Movie::getRating<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#177\">App\\Entity\\Movie::setRating<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#184\">App\\Entity\\Movie::getDuration<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#189\">App\\Entity\\Movie::setDuration<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#196\">App\\Entity\\Movie::getType<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#201\">App\\Entity\\Movie::setType<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#208\">App\\Entity\\Movie::getSummary<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#213\">App\\Entity\\Movie::setSummary<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#220\">App\\Entity\\Movie::getReleaseDate<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#225\">App\\Entity\\Movie::setReleaseDate<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#232\">App\\Entity\\Movie::getCreatedAt<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#237\">App\\Entity\\Movie::setCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#244\">App\\Entity\\Movie::getUpdatedAt<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#249\">App\\Entity\\Movie::setUpdatedAt<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#259\">App\\Entity\\Movie::getSeasons<\/a>"],[0,2,"<a href=\"Entity\/Movie.php.html#264\">App\\Entity\\Movie::addSeason<\/a>"],[0,3,"<a href=\"Entity\/Movie.php.html#274\">App\\Entity\\Movie::removeSeason<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#289\">App\\Entity\\Movie::getGenres<\/a>"],[0,2,"<a href=\"Entity\/Movie.php.html#294\">App\\Entity\\Movie::addGenre<\/a>"],[0,2,"<a href=\"Entity\/Movie.php.html#305\">App\\Entity\\Movie::removeGenre<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#317\">App\\Entity\\Movie::getCastings<\/a>"],[0,2,"<a href=\"Entity\/Movie.php.html#322\">App\\Entity\\Movie::addCasting<\/a>"],[0,3,"<a href=\"Entity\/Movie.php.html#332\">App\\Entity\\Movie::removeCasting<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#344\">App\\Entity\\Movie::concat<\/a>"],[100,1,"<a href=\"Entity\/Movie.php.html#349\">App\\Entity\\Movie::getSlug<\/a>"],[0,1,"<a href=\"Entity\/Movie.php.html#354\">App\\Entity\\Movie::setSlug<\/a>"],[0,1,"<a href=\"Entity\/Person.php.html#37\">App\\Entity\\Person::__construct<\/a>"],[0,1,"<a href=\"Entity\/Person.php.html#42\">App\\Entity\\Person::getId<\/a>"],[100,1,"<a href=\"Entity\/Person.php.html#47\">App\\Entity\\Person::getFirstname<\/a>"],[0,1,"<a href=\"Entity\/Person.php.html#52\">App\\Entity\\Person::setFirstname<\/a>"],[100,1,"<a href=\"Entity\/Person.php.html#59\">App\\Entity\\Person::getLastname<\/a>"],[0,1,"<a href=\"Entity\/Person.php.html#64\">App\\Entity\\Person::setLastname<\/a>"],[0,1,"<a href=\"Entity\/Person.php.html#74\">App\\Entity\\Person::getCastings<\/a>"],[0,2,"<a href=\"Entity\/Person.php.html#79\">App\\Entity\\Person::addCasting<\/a>"],[0,3,"<a href=\"Entity\/Person.php.html#89\">App\\Entity\\Person::removeCasting<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#79\">App\\Entity\\Review::onPrePersist<\/a>"],[0,1,"<a href=\"Entity\/Review.php.html#94\">App\\Entity\\Review::getId<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#99\">App\\Entity\\Review::getUsername<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#104\">App\\Entity\\Review::setUsername<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#111\">App\\Entity\\Review::getEmail<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#116\">App\\Entity\\Review::setEmail<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#123\">App\\Entity\\Review::getContent<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#128\">App\\Entity\\Review::setContent<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#135\">App\\Entity\\Review::getRating<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#140\">App\\Entity\\Review::setRating<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#147\">App\\Entity\\Review::getReactions<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#152\">App\\Entity\\Review::setReactions<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#159\">App\\Entity\\Review::getWatchedAt<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#164\">App\\Entity\\Review::setWatchedAt<\/a>"],[0,1,"<a href=\"Entity\/Review.php.html#171\">App\\Entity\\Review::getMovie<\/a>"],[100,1,"<a href=\"Entity\/Review.php.html#176\">App\\Entity\\Review::setMovie<\/a>"],[100,1,"<a href=\"Entity\/Season.php.html#36\">App\\Entity\\Season::getId<\/a>"],[100,1,"<a href=\"Entity\/Season.php.html#41\">App\\Entity\\Season::getName<\/a>"],[0,1,"<a href=\"Entity\/Season.php.html#46\">App\\Entity\\Season::setName<\/a>"],[100,1,"<a href=\"Entity\/Season.php.html#53\">App\\Entity\\Season::getNbEpisode<\/a>"],[0,1,"<a href=\"Entity\/Season.php.html#58\">App\\Entity\\Season::setNbEpisode<\/a>"],[0,1,"<a href=\"Entity\/Season.php.html#65\">App\\Entity\\Season::getMovie<\/a>"],[0,1,"<a href=\"Entity\/Season.php.html#70\">App\\Entity\\Season::setMovie<\/a>"],[100,1,"<a href=\"Entity\/User.php.html#39\">App\\Entity\\User::getId<\/a>"],[100,1,"<a href=\"Entity\/User.php.html#44\">App\\Entity\\User::getEmail<\/a>"],[0,1,"<a href=\"Entity\/User.php.html#49\">App\\Entity\\User::setEmail<\/a>"],[100,1,"<a href=\"Entity\/User.php.html#61\">App\\Entity\\User::getUserIdentifier<\/a>"],[0,1,"<a href=\"Entity\/User.php.html#69\">App\\Entity\\User::getUsername<\/a>"],[100,1,"<a href=\"Entity\/User.php.html#78\">App\\Entity\\User::getRoles<\/a>"],[0,1,"<a href=\"Entity\/User.php.html#87\">App\\Entity\\User::setRoles<\/a>"],[100,1,"<a href=\"Entity\/User.php.html#97\">App\\Entity\\User::getPassword<\/a>"],[0,1,"<a href=\"Entity\/User.php.html#102\">App\\Entity\\User::setPassword<\/a>"],[100,1,"<a href=\"Entity\/User.php.html#115\">App\\Entity\\User::getSalt<\/a>"],[0,1,"<a href=\"Entity\/User.php.html#123\">App\\Entity\\User::eraseCredentials<\/a>"],[100,1,"<a href=\"EventSubscriber\/MaintenanceSubscriber.php.html#17\">App\\EventSubscriber\\MaintenanceSubscriber::__construct<\/a>"],[100,2,"<a href=\"EventSubscriber\/MaintenanceSubscriber.php.html#22\">App\\EventSubscriber\\MaintenanceSubscriber::onKernelResponse<\/a>"],[0,1,"<a href=\"EventSubscriber\/MaintenanceSubscriber.php.html#43\">App\\EventSubscriber\\MaintenanceSubscriber::getSubscribedEvents<\/a>"],[100,1,"<a href=\"EventSubscriber\/RandomMovieSubscriber.php.html#18\">App\\EventSubscriber\\RandomMovieSubscriber::__construct<\/a>"],[100,2,"<a href=\"EventSubscriber\/RandomMovieSubscriber.php.html#24\">App\\EventSubscriber\\RandomMovieSubscriber::onKernelController<\/a>"],[0,1,"<a href=\"EventSubscriber\/RandomMovieSubscriber.php.html#87\">App\\EventSubscriber\\RandomMovieSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"Form\/GenreType.php.html#12\">App\\Form\\GenreType::buildForm<\/a>"],[0,1,"<a href=\"Form\/GenreType.php.html#20\">App\\Form\\GenreType::configureOptions<\/a>"],[0,1,"<a href=\"Form\/MovieType.php.html#16\">App\\Form\\MovieType::buildForm<\/a>"],[0,1,"<a href=\"Form\/MovieType.php.html#45\">App\\Form\\MovieType::configureOptions<\/a>"],[100,1,"<a href=\"Form\/ReviewType.php.html#17\">App\\Form\\ReviewType::buildForm<\/a>"],[100,1,"<a href=\"Form\/ReviewType.php.html#77\">App\\Form\\ReviewType::configureOptions<\/a>"],[0,1,"<a href=\"Form\/SeasonType.php.html#14\">App\\Form\\SeasonType::buildForm<\/a>"],[0,1,"<a href=\"Form\/SeasonType.php.html#28\">App\\Form\\SeasonType::configureOptions<\/a>"],[0,1,"<a href=\"Form\/UserCreateType.php.html#16\">App\\Form\\UserCreateType::buildForm<\/a>"],[0,1,"<a href=\"Form\/UserCreateType.php.html#59\">App\\Form\\UserCreateType::configureOptions<\/a>"],[0,2,"<a href=\"Form\/UserType.php.html#19\">App\\Form\\UserType::buildForm<\/a>"],[0,1,"<a href=\"Form\/UserType.php.html#83\">App\\Form\\UserType::configureOptions<\/a>"],[100,1,"<a href=\"Repository\/CastingRepository.php.html#19\">App\\Repository\\CastingRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/CastingRepository.php.html#24\">App\\Repository\\CastingRepository::add<\/a>"],[0,2,"<a href=\"Repository\/CastingRepository.php.html#33\">App\\Repository\\CastingRepository::remove<\/a>"],[100,1,"<a href=\"Repository\/GenreRepository.php.html#19\">App\\Repository\\GenreRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/GenreRepository.php.html#24\">App\\Repository\\GenreRepository::add<\/a>"],[0,2,"<a href=\"Repository\/GenreRepository.php.html#33\">App\\Repository\\GenreRepository::remove<\/a>"],[100,1,"<a href=\"Repository\/MovieRepository.php.html#19\">App\\Repository\\MovieRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/MovieRepository.php.html#24\">App\\Repository\\MovieRepository::add<\/a>"],[0,2,"<a href=\"Repository\/MovieRepository.php.html#33\">App\\Repository\\MovieRepository::remove<\/a>"],[100,1,"<a href=\"Repository\/MovieRepository.php.html#42\">App\\Repository\\MovieRepository::randomMovie<\/a>"],[0,1,"<a href=\"Repository\/PersonRepository.php.html#19\">App\\Repository\\PersonRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/PersonRepository.php.html#24\">App\\Repository\\PersonRepository::add<\/a>"],[0,2,"<a href=\"Repository\/PersonRepository.php.html#33\">App\\Repository\\PersonRepository::remove<\/a>"],[100,1,"<a href=\"Repository\/ReviewRepository.php.html#19\">App\\Repository\\ReviewRepository::__construct<\/a>"],[100,2,"<a href=\"Repository\/ReviewRepository.php.html#24\">App\\Repository\\ReviewRepository::add<\/a>"],[0,2,"<a href=\"Repository\/ReviewRepository.php.html#33\">App\\Repository\\ReviewRepository::remove<\/a>"],[100,1,"<a href=\"Repository\/SeasonRepository.php.html#19\">App\\Repository\\SeasonRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/SeasonRepository.php.html#24\">App\\Repository\\SeasonRepository::add<\/a>"],[0,2,"<a href=\"Repository\/SeasonRepository.php.html#33\">App\\Repository\\SeasonRepository::remove<\/a>"],[100,1,"<a href=\"Repository\/UserRepository.php.html#22\">App\\Repository\\UserRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/UserRepository.php.html#27\">App\\Repository\\UserRepository::add<\/a>"],[0,2,"<a href=\"Repository\/UserRepository.php.html#36\">App\\Repository\\UserRepository::remove<\/a>"],[0,2,"<a href=\"Repository\/UserRepository.php.html#48\">App\\Repository\\UserRepository::upgradePassword<\/a>"],[100,1,"<a href=\"Security\/OflixAuthenticator.php.html#26\">App\\Security\\OflixAuthenticator::__construct<\/a>"],[0,1,"<a href=\"Security\/OflixAuthenticator.php.html#31\">App\\Security\\OflixAuthenticator::authenticate<\/a>"],[0,2,"<a href=\"Security\/OflixAuthenticator.php.html#46\">App\\Security\\OflixAuthenticator::onAuthenticationSuccess<\/a>"],[100,1,"<a href=\"Security\/OflixAuthenticator.php.html#59\">App\\Security\\OflixAuthenticator::getLoginUrl<\/a>"],[66.66666666666666,2,"<a href=\"Security\/Voter\/Movie1400Voter.php.html#21\">App\\Security\\Voter\\Movie1400Voter::supports<\/a>"],[0,3,"<a href=\"Security\/Voter\/Movie1400Voter.php.html#45\">App\\Security\\Voter\\Movie1400Voter::voteOnAttribute<\/a>"],[100,2,"<a href=\"Security\/Voter\/Movie301Voter.php.html#12\">App\\Security\\Voter\\Movie301Voter::supports<\/a>"],[0,4,"<a href=\"Security\/Voter\/Movie301Voter.php.html#20\">App\\Security\\Voter\\Movie301Voter::voteOnAttribute<\/a>"],[100,1,"<a href=\"Serializer\/DoctrineDenormalizer.php.html#21\">App\\Serializer\\DoctrineDenormalizer::__construct<\/a>"],[0,2,"<a href=\"Serializer\/DoctrineDenormalizer.php.html#32\">App\\Serializer\\DoctrineDenormalizer::supportsDenormalization<\/a>"],[0,1,"<a href=\"Serializer\/DoctrineDenormalizer.php.html#56\">App\\Serializer\\DoctrineDenormalizer::denormalize<\/a>"],[0,1,"<a href=\"Services\/FavorisManager.php.html#15\">App\\Services\\FavorisManager::__construct<\/a>"],[0,5,"<a href=\"Services\/FavorisManager.php.html#20\">App\\Services\\FavorisManager::addOrRemove<\/a>"],[0,1,"<a href=\"Services\/FavorisManager.php.html#54\">App\\Services\\FavorisManager::getAll<\/a>"],[0,1,"<a href=\"Services\/FavorisManager.php.html#63\">App\\Services\\FavorisManager::getMovies<\/a>"],[100,1,"<a href=\"Services\/MySlugger.php.html#19\">App\\Services\\MySlugger::__construct<\/a>"],[100,2,"<a href=\"Services\/MySlugger.php.html#32\">App\\Services\\MySlugger::slug<\/a>"],[100,1,"<a href=\"Services\/OmdbApi.php.html#36\">App\\Services\\OmdbApi::__construct<\/a>"],[100,1,"<a href=\"Services\/OmdbApi.php.html#51\">App\\Services\\OmdbApi::fetch<\/a>"],[100,3,"<a href=\"Services\/OmdbApi.php.html#74\">App\\Services\\OmdbApi::getPoster<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

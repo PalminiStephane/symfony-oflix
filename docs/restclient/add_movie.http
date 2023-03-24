@@ -1,0 +1,16 @@
+POST http://localhost:8000/api/movies
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2Nzg3MTM2MTEsImV4cCI6MTY3ODc3ODQxMSwicm9sZXMiOlsiUk9MRV9BRE1JTiJdLCJ1c2VybmFtZSI6ImFkbWluQGFkbWluLmNvbSJ9.XQonb8WsNwFeS-71L0PJuhR63BTv8Y8RZe3WcNK1EIkL6KYbSWJ-T3_DWwHkaPaQMbnE7WRxqSi9wueumBTOcPv-8WRxvRl6YHQbaXUSewq9OebYLvCf8A7JXBM9_3Hg6x4Xf_c-zBg0gNT_TrQXf-zb0vEFUKFlqERZlUINOOHLTV_KRRRuG9nKpx_kE8Jorh3Hoce1iUrZoUNjR6888WjtnG2PFciOvj6BpVVlr3AuOebReq1jYFwndbLdV_Pio1CzqNPa_331lxgEeAsCvdcVKS1cdUo7n9sQwsHKISARPknR_2NL2NFdUfXxANEHJjEisr08Lfe1cdVzYT1vPA
+
+{
+  "title" : "Nazca du lundi matin avec genre",
+  "duration": 180,
+  "releaseDate": "2023-03-13",
+  "genres": [106, 108],
+  "type": "film",
+  "synopsis": "blablabla",
+  "poster":"no-poster",
+  "rating": 5,
+  "summary": "blablablablablablablablablablablabla",
+  "slug":"truc"
+}

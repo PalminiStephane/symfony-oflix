@@ -1,0 +1,27 @@
+{
+  "name": "xylis/faker-cinema-providers",
+  "description": "Generate random movie & shows datas using fakerphp/faker (based on real names & datas)",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Julien RAVIA",
+      "email": "julien.ravia@gmail.com"
+    }
+  ],
+  "require": {
+    "fakerphp/faker": "^1.12",
+    "php": "^5.3.3 || ^7.0 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xylis\\FakerCinema\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "squizlabs/php_codesniffer": "^2.9.2"
+  }
+}
+

@@ -1,0 +1,23 @@
+:
+Person: code_person, firstname, lastname
+play, 0N Movie, 0N Person: role
+Genre: code_genre, name
+:
+
+Review: code_review, pseudo, description, view_date, rating
+written, 0N Movie, 11 Review
+Movie: code_movie, title, synopsis, poster, release_date, rating, duration, type, summary
+has, 0N Movie, 0N Genre
+:
+
+:
+:
+belongs_to, 0N Movie, 11 Season
+Season: code_season, name, nb_episode
+:
+
+:
+:
+:
+:
+User: code_user, login, password, role

@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Liste des favoris</h1>
+    {% for movie in favList %}
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm bg-white position-relative">
+            <div class="col-4 movie__poster" style="background-image: url({{ movie.poster }});">
+                <img src="images/poster-placeholder.png" class="img-fluid">
+                <!-- img src="https://m.media-amazon.com/images/M/MV5BNThmZGY4NzgtMTM4OC00NzNkLWEwNmEtMjdhMGY5YTc1NDE4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" class="img-fluid" -->
+            </div>
+            <div class="col-8 p-4 d-flex flex-column position-static">
+                <a href="{{ path('app_favoris_index', {'index' : movie.id }) }}" class="movie__favorite fs-1 my-2 mx-3 link-danger">
+                    {% if  movie.id in app.session.get("favoris") %}
+                        <i class="bi bi-bookmark-x-fill"></i>
+                    {% else %}
+                        <i class="bi bi-bookmark-plus"></i>
+                    {% endif %}
+                </a>
+                <strong class="d-inline-block mb-2 text-primary">{{ movie.type }}</strong>
+                <h3 class="mb-1">{{ movie.title }}</h3>
+                <div class="mb-1 text-muted">{{ movie.duration }} min</div>
+                <p><small>{{ movie.summary }}</small>
+                </p>
+                <div class="d-flex" style="color: orange;">
+                    {% set rating = movie.rating %}
+                    {% set full_stars = rating|round(0, 'floor') %}
+                    {% set half_star = rating - full_stars >= 0.5 %}
+                    {% set empty_stars = 5 - full_stars - (half_star ? 1 : 0) %}
+                    {% for i in range(1, 5) %}
+                        {% if i <= full_stars %}
+                            {{ '<i class="bi bi-star-fill"></i>'|raw }}
+                        {% elseif i == full_stars + 1 and half_star %}
+                            {{ '<i class="bi bi-star-half"></i>'|raw }}
+                        {% else %}
+                            {{ '<i class="bi bi-star"></i>'|raw }}
+                        {% endif %}
+                    {% endfor %}
+                    <span class="ps-1">{{ movie.rating }}</span>
+                </div>
+                {# https://symfony.com/doc/5.4/templates.html#templates-link-to-pages #}
+                <a href="{{ path('app_home_show', {'id' : movie.id, 'slug' :  movie.slug  }) }}" class="fs-1 mt-3 text-danger align-self-start">
+                    <i class="bi bi-arrow-right-square"></i>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
